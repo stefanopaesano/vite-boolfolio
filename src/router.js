@@ -13,7 +13,7 @@ routes: [
     component: indexpage
     },
     {
-    path: '/blog',
+    path: '/Project',
     name: 'projects.index',
     component: ProjectsPage
     },

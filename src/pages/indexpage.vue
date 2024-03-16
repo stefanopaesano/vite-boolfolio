@@ -5,21 +5,24 @@ export default {
  
   data() {
     return {
-      mainTitle: 'il nuovo progetto'
+      mainTitle: 'LA MIA HOME'
     }
   },
 }
 </script>
 
 <template>
-<h1>{{ mainTitle }}</h1>
+  <div>
+
+    <h1>{{ mainTitle }}</h1>
+
+  </div>
+
 </template>
 
 <style lang="scss" scoped>
 
-main {
-  background-color: yellow;
-}
+
 
 h1{
   color: red;

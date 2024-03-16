@@ -4,9 +4,12 @@ import AppProjects from './AppProjects.vue';
 import axios from 'axios';
 
 export default {
+  
   components: {
     AppProjects
   },
+
+
   
 }
 </script>

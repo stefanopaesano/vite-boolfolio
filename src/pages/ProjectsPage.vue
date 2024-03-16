@@ -1,5 +1,7 @@
 <script>
- 
+import AppProjects from '../components/AppProjects.vue';
+import axios from 'axios';
+
 export default {
  
   data() {
@@ -7,7 +9,11 @@ export default {
         mainTitle: 'il nuovo progetto',
         projects: []
     }
-  },
+    },
+    components: {
+        AppProjects
+    },
+
   methods: {
     getApi() {
       this.loading = true;
