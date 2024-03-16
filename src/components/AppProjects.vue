@@ -33,7 +33,9 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-
+h3 , h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 img{
   width: 100%;
 }
