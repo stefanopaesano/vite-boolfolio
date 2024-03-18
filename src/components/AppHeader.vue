@@ -30,6 +30,12 @@ export default {
                         Projects
                     </router-link>
                 </button>
+
+                <button class="button">
+                    <router-link :to="{ name: 'contact' }" class="link">
+                       contact
+                    </router-link>
+                </button>
             </div>
         </div>
     </header>

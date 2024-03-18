@@ -16,17 +16,24 @@ export default {
 
 <template>
   <div class="card-container">
+
     <div class="card" v-for="project in projects" :key="project.id">
+
       <div class="card-header">
 
         <img :src="project.image" alt="">
+
         <h1>titolo</h1>
+
         <h2 class="card-title">{{ project.title }}</h2>
+
       </div>
       
       <div class="card-body">
         <h3>{{ project.description }}</h3>
+        
         <p>{{ project.date }}</p>
+
       </div>
     </div>
   </div>
