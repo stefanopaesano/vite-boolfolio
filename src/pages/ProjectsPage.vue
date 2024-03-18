@@ -44,7 +44,7 @@ export default {
         <h1 class="text-primary text-center">Progetti</h1>
 
 
-        <button class="btn btn-primary mb-3 ms-4" @click="createNewProject">
+        <button class="btn btn-primary mb-3 ms-4">
             Crea Nuovo Progetto <i class="fa-solid fa-plus"></i>
         </button>
         
